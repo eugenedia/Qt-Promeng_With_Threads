@@ -1,0 +1,324 @@
+18.02.2005 11:10:49 Message=ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1 Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateAccident(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 96
+   at BusinessLogic.TAccident.UpdateDataToDB(DataSet inDS) in R:\AskroBusherSolution\BusinessLogic\Directory\TAccident.cs:line 186
+   at BusinessLogic.TDirectoryProcessor.SaveCurrentObject() in R:\AskroBusherSolution\BusinessLogic\Directory\TDirectoryProcessor.cs:line 136
+   at AskroBusher.DirectoryForm.HotSaveData() in R:\AskroBusherSolution\AskroBusher\DirectoryForm.cs:line 457 Source = OraOLEDB
+18.02.2005 11:11:26 Message=ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1 Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateAccident(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 96
+   at BusinessLogic.TAccident.UpdateDataToDB(DataSet inDS) in R:\AskroBusherSolution\BusinessLogic\Directory\TAccident.cs:line 186
+   at BusinessLogic.TDirectoryProcessor.SaveCurrentObject() in R:\AskroBusherSolution\BusinessLogic\Directory\TDirectoryProcessor.cs:line 136
+   at AskroBusher.DirectoryForm.HotSaveData() in R:\AskroBusherSolution\AskroBusher\DirectoryForm.cs:line 457 Source = OraOLEDB
+18.02.2005 11:11:57 Message=ORA-06502: PL/SQL: numeric or value error: character to number conversion error
+ORA-06512: at line 1 Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateAccident(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 96
+   at BusinessLogic.TAccident.UpdateDataToDB(DataSet inDS) in R:\AskroBusherSolution\BusinessLogic\Directory\TAccident.cs:line 186
+   at BusinessLogic.TDirectoryProcessor.SaveCurrentObject() in R:\AskroBusherSolution\BusinessLogic\Directory\TDirectoryProcessor.cs:line 136
+   at AskroBusher.DirectoryForm.HotSaveData() in R:\AskroBusherSolution\AskroBusher\DirectoryForm.cs:line 457 Source = OraOLEDB
+18.02.2005 11:12:12 Message=ORA-06550: line 1, column 225:
+PLS-00103: Encountered the symbol "," when expecting one of the following:
+
+   ( - + mod not null others <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable> avg
+   count current exists max min prior sql stddev sum variance
+   execute forall time timestamp interval date
+   <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateForecast(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 132
+   at BusinessLogic.TForecast.SaveData() in r:\askrobushersolution\businesslogic\tforecast.cs:line 374
+   at AskroBusher.ForecastForm.ForecastForm_Closing(Object sender, CancelEventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1719
+   at System.ComponentModel.CancelEventHandler.Invoke(Object sender, CancelEventArgs e)
+   at System.Windows.Forms.Form.OnClosing(CancelEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at AskroBusher.BaseForm.WndProc(Message& m) in R:\AskroBusherSolution\AskroBusher\BaseForm.cs:line 176 Source = OraOLEDB
+18.02.2005 11:14:45 Message=ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_FORECAST_INFO'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALAccident.GetWindParam(DateTime InTime) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 231
+   at BusinessLogic.TForecast.GetWindParameters() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1955
+   at AskroBusher.ForecastForm.bGetWindParam_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2384 Source = OraOLEDB
+18.02.2005 11:15:09 Message=ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_FORECAST_INFO'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALAccident.GetWindParam(DateTime InTime) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 231
+   at BusinessLogic.TForecast.GetWindParameters() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1955
+   at AskroBusher.ForecastForm.bGetWindParam_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2384 Source = OraOLEDB
+18.02.2005 11:15:54 Message=ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_FORECAST_INFO'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALAccident.GetWindParam(DateTime InTime) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 231
+   at BusinessLogic.TForecast.GetWindParameters() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1955
+   at AskroBusher.ForecastForm.bGetWindParam_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2384 Source = OraOLEDB
+18.02.2005 11:16:27 Message=ORA-06550: line 1, column 225:
+PLS-00103: Encountered the symbol "," when expecting one of the following:
+
+   ( - + mod not null others <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable> avg
+   count current exists max min prior sql stddev sum variance
+   execute forall time timestamp interval date
+   <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateForecast(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 132
+   at BusinessLogic.TForecast.SaveData() in r:\askrobushersolution\businesslogic\tforecast.cs:line 374
+   at AskroBusher.ForecastForm.ForecastForm_Closing(Object sender, CancelEventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1719
+   at System.ComponentModel.CancelEventHandler.Invoke(Object sender, CancelEventArgs e)
+   at System.Windows.Forms.Form.OnClosing(CancelEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at AskroBusher.BaseForm.WndProc(Message& m) in R:\AskroBusherSolution\AskroBusher\BaseForm.cs:line 176 Source = OraOLEDB
+18.02.2005 11:20:38 Message=ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_FORECAST_INFO'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALAccident.GetWindParam(DateTime InTime) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 231
+   at BusinessLogic.TForecast.GetWindParameters() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1955
+   at AskroBusher.ForecastForm.bGetWindParam_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2384 Source = OraOLEDB
+18.02.2005 11:20:42 Message=ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_FORECAST_INFO'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALAccident.GetWindParam(DateTime InTime) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 231
+   at BusinessLogic.TForecast.GetWindParameters() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1955
+   at AskroBusher.ForecastForm.bGetWindParam_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2384 Source = OraOLEDB
+18.02.2005 11:20:44 Message=ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_FORECAST_INFO'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALAccident.GetWindParam(DateTime InTime) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 231
+   at BusinessLogic.TForecast.GetWindParameters() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1955
+   at AskroBusher.ForecastForm.bGetWindParam_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2384 Source = OraOLEDB
+18.02.2005 11:21:00 Message=ORA-06550: line 1, column 7:
+PLS-00306: wrong number or types of arguments in call to 'GET_FORECAST_INFO'
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALAccident.GetWindParam(DateTime InTime) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 231
+   at BusinessLogic.TForecast.GetWindParameters() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1955
+   at AskroBusher.ForecastForm.bGetWindParam_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2384 Source = OraOLEDB
+18.02.2005 11:21:27 Message=Object cannot be cast from DBNull to other types. Stack =    at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BusinessLogic.TForecast.RecalculateActivity() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1923
+   at BusinessLogic.TForecast.GetQ(Int32 MethodType) in r:\askrobushersolution\businesslogic\tforecast.cs:line 762
+   at BusinessLogic.TForecast.Calculation() in r:\askrobushersolution\businesslogic\tforecast.cs:line 477
+   at AskroBusher.ForecastForm.bCalculate_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1755 Source = mscorlib
+18.02.2005 11:21:31 Message=Object cannot be cast from DBNull to other types. Stack =    at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BusinessLogic.TForecast.RecalculateActivity() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1923
+   at AskroBusher.ForecastForm.bQRecalculation_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2304 Source = mscorlib
+18.02.2005 11:21:33 Message=Object cannot be cast from DBNull to other types. Stack =    at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BusinessLogic.TForecast.RecalculateActivity() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1923
+   at BusinessLogic.TForecast.GetQ(Int32 MethodType) in r:\askrobushersolution\businesslogic\tforecast.cs:line 762
+   at BusinessLogic.TForecast.Calculation() in r:\askrobushersolution\businesslogic\tforecast.cs:line 477
+   at AskroBusher.ForecastForm.bCalculate_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1755 Source = mscorlib
+18.02.2005 11:21:35 Message=ORA-06550: line 1, column 236:
+PLS-00103: Encountered the symbol "," when expecting one of the following:
+
+   ( - + mod not null others <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable> avg
+   count current exists max min prior sql stddev sum variance
+   execute forall time timestamp interval date
+   <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateForecast(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 132
+   at BusinessLogic.TForecast.SaveData() in r:\askrobushersolution\businesslogic\tforecast.cs:line 374
+   at AskroBusher.ForecastForm.ForecastForm_Closing(Object sender, CancelEventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1719
+   at System.ComponentModel.CancelEventHandler.Invoke(Object sender, CancelEventArgs e)
+   at System.Windows.Forms.Form.OnClosing(CancelEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at AskroBusher.BaseForm.WndProc(Message& m) in R:\AskroBusherSolution\AskroBusher\BaseForm.cs:line 176 Source = OraOLEDB
+18.02.2005 12:06:15 Message=Object cannot be cast from DBNull to other types. Stack =    at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at BusinessLogic.TForecast.GetDoseParameters() in r:\askrobushersolution\businesslogic\tforecast.cs:line 1977
+   at AskroBusher.ForecastForm.bGetDose_Click(Object sender, EventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 2407 Source = mscorlib
+18.02.2005 12:06:37 Message=ORA-06550: line 1, column 236:
+PLS-00103: Encountered the symbol "," when expecting one of the following:
+
+   ( - + mod not null others <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable> avg
+   count current exists max min prior sql stddev sum variance
+   execute forall time timestamp interval date
+   <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateForecast(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 132
+   at BusinessLogic.TForecast.SaveData() in r:\askrobushersolution\businesslogic\tforecast.cs:line 374
+   at AskroBusher.ForecastForm.ForecastForm_Closing(Object sender, CancelEventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1719
+   at System.ComponentModel.CancelEventHandler.Invoke(Object sender, CancelEventArgs e)
+   at System.Windows.Forms.Form.OnClosing(CancelEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at AskroBusher.BaseForm.WndProc(Message& m) in R:\AskroBusherSolution\AskroBusher\BaseForm.cs:line 176 Source = OraOLEDB
+18.02.2005 12:25:28 Message=ORA-06550: line 1, column 236:
+PLS-00103: Encountered the symbol "," when expecting one of the following:
+
+   ( - + mod not null others <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable> avg
+   count current exists max min prior sql stddev sum variance
+   execute forall time timestamp interval date
+   <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateForecast(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 132
+   at BusinessLogic.TForecast.SaveData() in r:\askrobushersolution\businesslogic\tforecast.cs:line 374
+   at AskroBusher.ForecastForm.ForecastForm_Closing(Object sender, CancelEventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1719
+   at System.ComponentModel.CancelEventHandler.Invoke(Object sender, CancelEventArgs e)
+   at System.Windows.Forms.Form.OnClosing(CancelEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at AskroBusher.BaseForm.WndProc(Message& m) in R:\AskroBusherSolution\AskroBusher\BaseForm.cs:line 176 Source = OraOLEDB
+18.02.2005 12:25:30 Message=ORA-06550: line 1, column 236:
+PLS-00103: Encountered the symbol "," when expecting one of the following:
+
+   ( - + mod not null others <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable> avg
+   count current exists max min prior sql stddev sum variance
+   execute forall time timestamp interval date
+   <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateForecast(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 132
+   at BusinessLogic.TForecast.SaveData() in r:\askrobushersolution\businesslogic\tforecast.cs:line 374
+   at AskroBusher.ForecastForm.ForecastForm_Closing(Object sender, CancelEventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1719
+   at System.ComponentModel.CancelEventHandler.Invoke(Object sender, CancelEventArgs e)
+   at System.Windows.Forms.Form.OnClosing(CancelEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at AskroBusher.BaseForm.WndProc(Message& m) in R:\AskroBusherSolution\AskroBusher\BaseForm.cs:line 176 Source = OraOLEDB
+18.02.2005 12:25:34 Message=ORA-06550: line 1, column 236:
+PLS-00103: Encountered the symbol "," when expecting one of the following:
+
+   ( - + mod not null others <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable> avg
+   count current exists max min prior sql stddev sum variance
+   execute forall time timestamp interval date
+   <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateForecast(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 132
+   at BusinessLogic.TForecast.SaveData() in r:\askrobushersolution\businesslogic\tforecast.cs:line 374
+   at AskroBusher.ForecastForm.ForecastForm_Closing(Object sender, CancelEventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1719
+   at System.ComponentModel.CancelEventHandler.Invoke(Object sender, CancelEventArgs e)
+   at System.Windows.Forms.Form.OnClosing(CancelEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at AskroBusher.BaseForm.WndProc(Message& m) in R:\AskroBusherSolution\AskroBusher\BaseForm.cs:line 176 Source = OraOLEDB
+18.02.2005 12:25:36 Message=ORA-06550: line 1, column 236:
+PLS-00103: Encountered the symbol "," when expecting one of the following:
+
+   ( - + mod not null others <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable> avg
+   count current exists max min prior sql stddev sum variance
+   execute forall time timestamp interval date
+   <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> Stack =    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(Int32 hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForMultpleResults(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at DataAccess.DALBase.ExecDbProcedure(String dbQuery, Int32 InitialValue) in r:\askrobushersolution\dataaccess\dalbase.cs:line 292
+   at DataAccess.DALAccident.UpdateForecast(DataSet inDS) in R:\AskroBusherSolution\DataAccess\Accidents\DALAccident.cs:line 132
+   at BusinessLogic.TForecast.SaveData() in r:\askrobushersolution\businesslogic\tforecast.cs:line 374
+   at AskroBusher.ForecastForm.ForecastForm_Closing(Object sender, CancelEventArgs e) in r:\askrobushersolution\askrobusher\forecastform.cs:line 1719
+   at System.ComponentModel.CancelEventHandler.Invoke(Object sender, CancelEventArgs e)
+   at System.Windows.Forms.Form.OnClosing(CancelEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at AskroBusher.BaseForm.WndProc(Message& m) in R:\AskroBusherSolution\AskroBusher\BaseForm.cs:line 176 Source = OraOLEDB

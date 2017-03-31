@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/save.png</file>
+        <file>resources/images/6.bmp</file>
+        <file>resources/images/29.bmp</file>
+        <file>resources/images/3.bmp</file>
+        <file>resources/images/2.bmp</file>
+        <file>resources/images/5.bmp</file>
+        <file>resources/AsrkroLogoPanel.bmp</file>
+        <file>resources/1.0.bmp</file>
+        <file>resources/Map2_new.bmp</file>
+        <file>resources/MeteoB_NEW.bmp</file>
+        <file>resources/VentFull.bmp</file>
+        <file>resources/Map1_new.bmp</file>
+        <file>resources/Truba.bmp</file>
+        <file>resources/4.4.bmp</file>
+        <file>resources/6.4.bmp</file>
+    </qresource>
+</RCC>

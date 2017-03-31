@@ -1,0 +1,159 @@
+//  qt and stored procedures
+
+    QString q;
+    q.sprintf( "CALL getLastMsg(%d)", 20 );
+    if (!query.exec( q ) )
+    {
+            qDebug() << "getLastMsg() failed: " << query.lastError().text();
+    }
+
+    unsigned ncols = query.record().count();
+    while( query.next() )
+    {
+        for( unsigned i = 0; i < ncols; ++i )
+        {
+          if( i )
+              qDebug() << " | ";
+          qDebug() << query.value(i).toString();
+        }
+        qDebug() << '\n';
+    }
+
+
+
+ void BitmapWorker::mouseMoveEvent ( QMouseEvent * event )
+ {
+  }
+     //int tmpX,tmpY;
+   /* QPoint mousePoint(event->x(),event->y());
+    qDebug()<< mousePoint.x() <<mousePoint.y();
+
+     int selectedPoint=0;
+
+  if((OldmousePoint.x()-mousePoint.x()>5)||(OldmousePoint.y()-mousePoint.y()>5))
+
+  }
+     QRect stationRect = StationPoint.rect();
+     //stationRect.adjust(150,150,150,150);
+
+
+     for(int j=0; j<numberOfPoints; j++)
+             {
+         stationRect. setRect(pPointers[j].x(),pPointers[j].y(),15,15);
+
+
+         stationSelect = false;
+
+
+             if(stationRect.contains(mousePoint))
+        {
+         stationSelect = true;
+         selectedPoint = j; //точка на которую наведен указатель мыши.
+
+
+
+
+
+         //tooltipPoint = QPoint(150+winPos.x()+50,150+winPos.y()+5);
+         tooltipPoint = QPoint(pPointers[j].x(),pPointers[j].y());
+         //setUpdatesEnabled(false);
+
+
+        // QToolTip::showText(tooltipPoint, "0.45678, 45783.3858349");
+         //setUpdatesEnabled(true);
+        // update();
+        }
+     /*else
+        if (stationSelect==true)
+        {oid wave::on_goSquare_clicked()
+        {
+        //Generate
+            freq = ui->squareFrequency->text().toDouble();
+            ampl = ui->squareAmplitude->text().toDouble();
+
+            squarethread->start();
+            ui->goSquare->setEnabled(false);
+            ui->goSquare->setStyleSheet("background-color: gray");
+            ui->stopSquare->setStyleSheet("background-color: rgb(255, 192, 192);"
+                                          "color: red;");
+            ui->stopSquare->setEnabled(true);
+        }
+
+        void wave::on_stopSquare_clicked()
+        {
+        //Terminate
+            squarethread->terminate();
+            ui->stopSquare->setEnabled(false);
+            ui->stopSquare->setStyleSheet("background-color: gray");
+            ui->goSquare->setStyleSheet("background-color: rgb(192, 255, 208);"
+                                          "color: green;");
+            ui->goSquare->setEnabled(true);
+        }
+            stationSelect=false;
+            QToolTip::hideText();
+            update();
+
+        }*/
+     //}
+
+     //stationSelect
+
+     //if
+
+
+   //}
+  /*else
+  {
+  OldmousePoint.setX(mousePoint.x());
+  OldmousePoint.setY(mousePoint.y());
+  }
+
+        QWidget::mouseMoveEvent(event);*/
+
+// }
+
+ /*bool BitmapWorker::event(QEvent *event)
+ {
+ //! [5] //! [6]
+     if (event->type() == QEvent::ToolTip) {
+         QHelpEvent *helpEvent = static_cast<QHelpEvent *>(event);
+
+         QPoint iPos = helpEvent->pos();
+
+         if (index != -1) {
+             QToolTip::showText(helpEvent->globalPos(), shapeItems[index].toolTip());
+         } else {
+             QToolTip::hideText();
+             event->ignore();
+         }
+
+         return true;
+     }
+     return QWidget::event(event);
+ }*/
+ /*
+oid wave::on_goSquare_clicked()
+{
+//Generate
+    freq = ui->squareFrequency->text().toDouble();
+    ampl = ui->squareAmplitude->text().toDouble();
+
+    squarethread->start();
+    ui->goSquare->setEnabled(false);
+    ui->goSquare->setStyleSheet("background-color: gray");
+    ui->stopSquare->setStyleSheet("background-color: rgb(255, 192, 192);"
+                                  "color: red;");
+    ui->stopSquare->setEnabled(true);
+}
+
+void wave::on_stopSquare_clicked()
+{
+//Terminate
+    squarethread->terminate();
+    ui->stopSquare->setEnabled(false);
+    ui->stopSquare->setStyleSheet("background-color: gray");
+    ui->goSquare->setStyleSheet("background-color: rgb(192, 255, 208);"
+                                  "color: green;");
+    ui->goSquare->setEnabled(true);
+}
+*/

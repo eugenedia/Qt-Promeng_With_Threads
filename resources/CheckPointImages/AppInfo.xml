@@ -1,0 +1,614 @@
+<?xml version="1.0" standalone="yes"?>
+<DatasetAppInfo xmlns="http://tempuri.org/Dataset1.xsd">
+  <AppInfo>
+    <PriMashine_Name>192.168.18.101</PriMashine_Name>
+    <SecMashine_Name>127.0.0.1</SecMashine_Name>
+    <HintInitDelay>10</HintInitDelay>
+    <HintPopDelay>3000</HintPopDelay>
+    <DeatZone>30</DeatZone>
+    <LicenceKey>6B4E745EF1876919B664F5FC5A72F6CD2DC88492153735E1D9F8C63CD16B5564EE8C7CCB824211D25FDBD096D627ECD720B93AFBD95329EABD6EAFF900F39A563039DAE7BC3C8F9632890629915F40F7FA5758314A6CCCEBB8117681BD0CC62E904BCD6FB6E179E17B6E01948B6D9F033C3FEAFB82078A57BFAF1DCD4DCEC98E24B0DA3A27F3D4D93F462A1F1DF592E55F1D9F623D7C35A350F01E68FCABF084607D6F05E4F1824C329668B9287C590CFBE7D46DBD9B79B6401F36616CA478ABB2C3BADD9D9AF6DA3CC46923DC6D96A92CF91747DC4B6873A48436A64BC5DDFF14BEB5A2CDA635A123B8995E7ADFCE8DB16DF37F253DA9311BA9FB96CE8561DDB0A72002241B9777CD9B7A6676FEE44F7F91D40DF3871D405797A5BF654026025027B25BE2289A8A65B2EA2EE1ED782658A3B5D17C8F98A55F3ECA923BA9DAA9984FC0358CC8A20939B6CD3845555E8F69AA094AEB141ED80F7F5200FC300705513E81BB999B302B6131293F87E5B231F5296C25855FE53D2B9F6380C4535E735F77D475CED7B85DDE1B71B59DBB8E10263A4EE25902F1CC11378BC4BDB7775FB1A85CB7E65DB802252B527BC7E1F8A972F5E31A68CA235C8E6510498D791C3C34A1D27E99DE4410C31BDBE8ACCAF235B5C974A6007B225E76AFEA266F12309217B0C5EDCC40435CCE12067F6FC907D69DA932A6936B65A2778F63CD8F2C34649C31333609A029F1D4D1B5B6C9C8C362FE860A6E3D7A6C8D8CC21871FBD613D7D495CED3673BAB32860099A18BCA60F25C949EEE791C68C0E1870CC7F1AE7AE5B654CB299F3340FB1C8E05D1B796D0AB4B15A7E609E7A8B6594FB204313B9DAA20CA42DBFE0F9BC147DF171DAF83B7017A957BBF22E5457254EE549517C7799DF2482C66A2DD03886CA93D60D1268913BEB5F2B24C379F90C712B45C2344AF8FA1A90F2C5E83C2DCD02E871C44B4C66A98774777F0B608DCD184181C7E8723C7A576C603F730ECB05F9E002CDCEB6B201C6789959910F7FC762EE14EAE808E35A11AAE829A337FF0A4FA06C2ADAE4C67</LicenceKey>
+    <LastUserName>Admin</LastUserName>
+  </AppInfo>
+  <WindowAttributes>
+    <Posx>0</Posx>
+    <Posy>243</Posy>
+    <WinWidth>238</WinWidth>
+    <WinHeight>766</WinHeight>
+    <name>Navigation Tree</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>246</Posx>
+    <Posy>168</Posy>
+    <WinWidth>737</WinWidth>
+    <WinHeight>773</WinHeight>
+    <name>NPP Site</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>3</Posx>
+    <Posy>102</Posy>
+    <WinWidth>1284</WinWidth>
+    <WinHeight>520</WinHeight>
+    <name>Event log</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>127</Posx>
+    <Posy>257</Posy>
+    <WinWidth>1029</WinWidth>
+    <WinHeight>814</WinHeight>
+    <name>Aeration tube</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>238</Posx>
+    <Posy>243</Posy>
+    <WinWidth>982</WinWidth>
+    <WinHeight>773</WinHeight>
+    <name>MapBushehr</name>
+    <isOpen>688940</isOpen>
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>290</Posx>
+    <Posy>114</Posy>
+    <WinWidth>864</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>New chart666</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>243</Posx>
+    <Posy>152</Posy>
+    <WinWidth>967</WinWidth>
+    <WinHeight>407</WinHeight>
+    <name>All params</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>287</Posx>
+    <Posy>138</Posy>
+    <WinWidth>864</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>New chart3454</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>311</Posx>
+    <Posy>206</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Unit of measurement</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>415</Posx>
+    <Posy>151</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Environment</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>367</Posx>
+    <Posy>218</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>User</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>336</Posx>
+    <Posy>180</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Check point</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>283</Posx>
+    <Posy>154</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Device Type</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>345</Posx>
+    <Posy>208</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Param type</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Location</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>280</Posx>
+    <Posy>317</Posy>
+    <WinWidth>265</WinWidth>
+    <WinHeight>793</WinHeight>
+    <name>VentTubeLittle</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>303</Posx>
+    <Posy>193</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Systems</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>245</Posx>
+    <Posy>124</Posy>
+    <WinWidth>864</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Chart122</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>237</Posx>
+    <Posy>161</Posy>
+    <WinWidth>864</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>2222</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>291</Posx>
+    <Posy>244</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Plan</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>280</Posx>
+    <Posy>206</Posy>
+    <WinWidth>864</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Charts</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>338</Posx>
+    <Posy>264</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>123</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>242</Posx>
+    <Posy>242</Posy>
+    <WinWidth>300</WinWidth>
+    <WinHeight>300</WinHeight>
+    <name>PrognosisForm</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>22</Posx>
+    <Posy>22</Posy>
+    <WinWidth>300</WinWidth>
+    <WinHeight>300</WinHeight>
+    <name />
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>DirectoryForm</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>148</Posx>
+    <Posy>106</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Formats</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>359</Posx>
+    <Posy>216</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Standard comments</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>321</Posx>
+    <Posy>445</Posy>
+    <WinWidth>878</WinWidth>
+    <WinHeight>633</WinHeight>
+    <name>Check points</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>318</Posx>
+    <Posy>269</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Plans</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Units of measurement</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>212</Posx>
+    <Posy>262</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Environments</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>236</Posx>
+    <Posy>151</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Locations</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>362</Posx>
+    <Posy>214</Posy>
+    <WinWidth>640</WinWidth>
+    <WinHeight>688</WinHeight>
+    <name>ForecastForm</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>538</WinWidth>
+    <WinHeight>814</WinHeight>
+    <name>Test oracle Plan</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>265</Posx>
+    <Posy>134</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>BOP-1M</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>247</Posx>
+    <Posy>278</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>System statuses for Controller 1</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>289</Posx>
+    <Posy>353</Posy>
+    <WinWidth>728</WinWidth>
+    <WinHeight>414</WinHeight>
+    <name>System statuses for Controller 2</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>UDI-1B</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>152</Posx>
+    <Posy>472</Posy>
+    <WinWidth>926</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>ArchiveLog</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>270</Posx>
+    <Posy>275</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Monitoring zone</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>256</Posx>
+    <Posy>272</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Discharge channel</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>416</Posx>
+    <Posy>192</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Format</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>80</Posx>
+    <Posy>155</Posy>
+    <WinWidth>1129</WinWidth>
+    <WinHeight>598</WinHeight>
+    <name>Chart</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>252</Posx>
+    <Posy>224</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Users</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>382</Posx>
+    <Posy>167</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Ventilation stack</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>259</Posx>
+    <Posy>274</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Meteo complex</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>BOP-1M N2</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>237</Posx>
+    <Posy>280</Posy>
+    <WinWidth>1010</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>rfgdgdfg</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>UPPVM</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>223</Posx>
+    <Posy>123</Posy>
+    <WinWidth>1029</WinWidth>
+    <WinHeight>814</WinHeight>
+    <name>TestPlan</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>248</Posx>
+    <Posy>270</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Accidents</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>685</Posx>
+    <Posy>282</Posy>
+    <WinWidth>307</WinWidth>
+    <WinHeight>773</WinHeight>
+    <name>Meteo</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>288</Posx>
+    <Posy>161</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>431</Posx>
+    <Posy>355</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>602</WinHeight>
+    <name>Device Types</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>331</Posx>
+    <Posy>249</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>System statuses for Controller 3</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>141</Posx>
+    <Posy>186</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Industrial site</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>368</Posx>
+    <Posy>226</Posy>
+    <WinWidth>307</WinWidth>
+    <WinHeight>773</WinHeight>
+    <name>Ventillation Stack</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>259</Posx>
+    <Posy>278</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Log Messages</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>324</Posx>
+    <Posy>289</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Statuses</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>278</Posx>
+    <Posy>212</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - UDI-1B</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - BDMG-100</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>304</Posx>
+    <Posy>124</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - Meteorological Station</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>260</Posx>
+    <Posy>129</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - RadioBOP 005</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>163</Posx>
+    <Posy>156</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>600</WinHeight>
+    <name>Param types</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>562</Posx>
+    <Posy>238</Posy>
+    <WinWidth>620</WinWidth>
+    <WinHeight>592</WinHeight>
+    <name>Results: Forecast_7</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - RadioBOP 003</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - RadioBOP 001</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>15</Posx>
+    <Posy>98</Posy>
+    <WinWidth>1275</WinWidth>
+    <WinHeight>433</WinHeight>
+    <name>Operative log</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>272</Posx>
+    <Posy>113</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - RadioBOP 002</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>167</Posx>
+    <Posy>255</Posy>
+    <WinWidth>980</WinWidth>
+    <WinHeight>773</WinHeight>
+    <name>Ventillation Full</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - UDG-1B</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>172</Posx>
+    <Posy>206</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - RadioBOP 012</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>100</Posx>
+    <Posy>100</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - Virtual Controller 2</name>
+    <isOpen />
+  </WindowAttributes>
+  <WindowAttributes>
+    <Posx>263</Posx>
+    <Posy>134</Posy>
+    <WinWidth>800</WinWidth>
+    <WinHeight>700</WinHeight>
+    <name>Properties - Virtual Controller 1</name>
+    <isOpen />
+  </WindowAttributes>
+  <ServiceNames>
+    <K1_Name>low_Askro_c1</K1_Name>
+    <K2_Name>low_Askro_c2</K2_Name>
+    <K3_Name>low_Askro_c3</K3_Name>
+    <PriORCL_Name>OracleServiceASKRO</PriORCL_Name>
+    <_x0032_K1_Name>low_Askro_c1</_x0032_K1_Name>
+    <_x0032_K2_Name>low_Askro_c2</_x0032_K2_Name>
+    <_x0032_K3_Name>low_Askro_c3</_x0032_K3_Name>
+    <SecORCL_Name>OracleServiceASKRO</SecORCL_Name>
+  </ServiceNames>
+</DatasetAppInfo>
